@@ -34,13 +34,8 @@
         "jquery": "3.5.1"
     },
     "devDependencies": {
-        "body-parser": "^1.19.0",
-        "browser-sync": "2.26.7",
-        "del": "5.1.0",
         "gh-pages": "^3.1.0",
-        "gulp": "4.0.2",
         "http": "0.0.1-security",
-        "merge-stream": "2.0.0",
         "nodemon": "^2.0.4"
     }
 }

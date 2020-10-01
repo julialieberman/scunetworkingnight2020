@@ -4,12 +4,6 @@ const express = require('express');
 
 var app = express();
 const server= require('http').createServer(app);
-
-const bodyParser = require('body-parser');
-const { request, response } = require('express');
-
-app.use(bodyParser.urlencoded({extended: false}));
-app.use(bodyParser.json());
 app.use(express.static('./'))
 
 
