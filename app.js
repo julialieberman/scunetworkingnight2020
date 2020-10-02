@@ -13,7 +13,9 @@ app.get('/', function (req, res) {
     res.render('index.html')
 })
 
-
+app.get('/nvidia', function (req, res) {
+    res.render('nvidia.html')
+})
 
 /** on page error */
 app.use(function (req, res, next) 

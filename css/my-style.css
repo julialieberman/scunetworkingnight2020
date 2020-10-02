@@ -9,9 +9,31 @@
 
   .myheader {
     align-items: center;
+    text-align: center;
     display: flex;
   }
-
+  .subheader{
+    align-items: center;
+    text-align: center;
+  }
   .logo {
     display: flex;
+    justify-content: center;
+    height: 250px;
+    width: auto;
+    padding-top: 10px;
+  }
+  .navbar{
+    flex-wrap: unset !important;
+  }
+  .home-button{
+    border-color: purple;
+  }
+  .navbar-text{
+    font-size: 1.5rem;
+    text-align: center;
+    width: -webkit-fill-available;
+  }
+  .multiline{
+    white-space: pre-line;
   }
