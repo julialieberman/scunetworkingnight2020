@@ -44,6 +44,13 @@
   .multiline{
     white-space: pre-line;
   }
-  p{
-    margin-left: 10px;
+  .indent-text{
+    text-align: center;
+  }
+  .application-info, .zoom-info{
+    padding-left: inherit;
+  }
+
+  .container-fluid{
+    padding-bottom: 10px;
   }
