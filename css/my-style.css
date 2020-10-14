@@ -8,7 +8,7 @@
   }
 .extraContent{
   margin: auto;
-  padding-left: inherit;
+  width: 80%;
 }
   .myheader {
     align-items: center;
@@ -35,6 +35,7 @@
   }
   .home-button{
     border-color: purple;
+    border-width: medium;
   }
   .navbar-text{
     font-size: 1.5rem;
@@ -48,9 +49,14 @@
     text-align: center;
   }
   .application-info, .zoom-info{
-    padding-left: inherit;
     width: 80%;
     margin: auto;
+  }
+  .portfolio{
+    height: -moz-available;          /* WebKit-based browsers will ignore this. */
+    height: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
+    height: fill-available;
+    width: 80%;
   }
 
   .container-fluid{
